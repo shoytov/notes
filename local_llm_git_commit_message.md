@@ -151,3 +151,27 @@ aichat -m deepseek "Пожалуйста, напишите commit message для
 ```
 
 Готово! Теперь у нас идет генерация commit message при помощи локальной модели.
+
+Вот пример сообщения, который был сгенерирован в репозитории с моими статьями, когда я написал этот текст:
+
+```
+Added two new methods for generating commit messages:
+
+1. Using online Cloudflare LLM (requires internet)
+2. Using offline local models like Deepseek via LM Studio
+
+Updated the template documentation to include these new approaches.
+
+Verified that both methods follow our commit message format requirements.
+```
+
+На этом все, надеюсь, было интересно и, возможно, кому-то даже полезно :)
+
+P.S.
+Шаблон для сообщения в репозитории с текстами статей такой:
+
+```
+{summary}
+
+{changes description}
+```
